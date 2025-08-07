@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(250, 249, 246);
+  width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+h2 {
+  font-weight: lighter;
+  color: rgb(46, 150, 46);
+}
+
+.email {
+  margin-top: 5px;
+  font-size: large;
+  color: rgb(138, 138, 138);
+}
+
+.num {
+  margin-top: 5px;
+  font-size: large;
+  color: rgb(138, 138, 138);
+}
